@@ -1,0 +1,37 @@
+2025-03-10 12:49:01,821 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:49:01,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:49:01,823 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 12:49:02,249 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 12:49:02,253 - werkzeug - INFO -  * Debugger PIN: 101-634-373
+2025-03-10 12:50:39,455 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:50:39,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:50:39,471 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 12:50:39,899 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 12:50:39,904 - werkzeug - INFO -  * Debugger PIN: 101-634-373
+2025-03-10 12:51:14,382 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:51:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 12:51:14,543 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:51:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-10 12:51:14,546 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:51:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-10 12:51:14,594 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:51:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=4nEAVvjgt8eunXD9pvtv HTTP/1.1" 200 -
+2025-03-10 12:51:14,649 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 12:51:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-11 09:00:25,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\amartqui\\Documents\\Test\\02_apis\\app.py', reloading
+2025-03-11 09:00:25,592 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 09:00:26,227 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 09:00:26,232 - werkzeug - INFO -  * Debugger PIN: 101-634-373
+2025-03-11 09:21:02,569 - werkzeug - INFO -  * Detected change in 'C:\\Users\\amartqui\\Documents\\Test\\02_apis\\app.py', reloading
+2025-03-11 09:21:02,620 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 09:21:03,055 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 09:21:03,058 - werkzeug - INFO -  * Debugger PIN: 101-634-373
+2025-03-11 09:21:10,371 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 09:21:10,372 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 09:21:10,373 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 09:21:10,764 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 09:21:10,768 - werkzeug - INFO -  * Debugger PIN: 101-634-373
+2025-03-11 09:21:19,931 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:21:19] "GET / HTTP/1.1" 200 -
+2025-03-11 09:21:20,092 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 09:21:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-11 11:26:10,749 - __main__ - INFO - File uploaded successfully: example.txt as 372649629fe24d1cbdcae1a654c5453e.txt
+2025-03-11 11:26:10,751 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:26:10] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 11:26:44,729 - __main__ - INFO - File uploaded successfully: example.txt as 59d146be111a45eab84cd28c8b41830f.txt
+2025-03-11 11:26:44,729 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:26:44] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
