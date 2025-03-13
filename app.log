@@ -35,3 +35,32 @@
 2025-03-11 11:26:10,751 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:26:10] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
 2025-03-11 11:26:44,729 - __main__ - INFO - File uploaded successfully: example.txt as 59d146be111a45eab84cd28c8b41830f.txt
 2025-03-11 11:26:44,729 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 11:26:44] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 13:25:27,494 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 13:25:27,495 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 13:25:27,500 - werkzeug - INFO -  * Restarting with stat
+2025-03-11 13:25:28,263 - werkzeug - WARNING -  * Debugger is active!
+2025-03-11 13:25:28,272 - werkzeug - INFO -  * Debugger PIN: 488-547-497
+2025-03-11 13:25:38,923 - __main__ - INFO - File uploaded successfully: example.txt as 90757801b9b84d50acc458850e32025e.txt
+2025-03-11 13:25:38,923 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 13:25:38] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 13:25:41,058 - __main__ - INFO - File list requested, 2 files returned
+2025-03-11 13:25:41,058 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 13:25:41] "GET /files HTTP/1.1" 200 -
+2025-03-11 13:25:43,629 - __main__ - INFO - File downloaded: 90757801b9b84d50acc458850e32025e.txt (original: example.txt)
+2025-03-11 13:25:43,633 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 13:25:43] "GET /download/90757801b9b84d50acc458850e32025e.txt HTTP/1.1" 200 -
+2025-03-11 13:27:34,520 - __main__ - INFO - File deleted: 90757801b9b84d50acc458850e32025e.txt
+2025-03-11 13:27:34,521 - werkzeug - INFO - 127.0.0.1 - - [11/Mar/2025 13:27:34] "DELETE /files/90757801b9b84d50acc458850e32025e.txt HTTP/1.1" 200 -
+2025-03-13 10:07:57,725 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 10:07:57,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 10:07:57,729 - werkzeug - INFO -  * Restarting with stat
+2025-03-13 10:07:58,122 - werkzeug - WARNING -  * Debugger is active!
+2025-03-13 10:07:58,127 - werkzeug - INFO -  * Debugger PIN: 562-986-930
+2025-03-13 10:08:06,742 - __main__ - INFO - File uploaded successfully: example.txt as 5f69738b35f9447bb8f9820ee49d74bb.txt
+2025-03-13 10:08:06,743 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 10:08:06] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-13 10:08:08,477 - __main__ - INFO - File list requested, 2 files returned
+2025-03-13 10:08:08,479 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 10:08:08] "GET /files HTTP/1.1" 200 -
+2025-03-13 10:08:11,499 - __main__ - INFO - File downloaded: 5f69738b35f9447bb8f9820ee49d74bb.txt (original: example.txt)
+2025-03-13 10:08:11,500 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 10:08:11] "GET /download/5f69738b35f9447bb8f9820ee49d74bb.txt HTTP/1.1" 200 -
+2025-03-13 10:08:14,699 - __main__ - INFO - File deleted: 5f69738b35f9447bb8f9820ee49d74bb.txt
+2025-03-13 10:08:14,700 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 10:08:14] "DELETE /files/5f69738b35f9447bb8f9820ee49d74bb.txt HTTP/1.1" 200 -
+2025-03-13 11:53:17,457 - waitress - INFO - Serving on http://0.0.0.0:8000

@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify, send_from_directory, render_template
 import os
-import uuid
-import datetime
-import mimetypes
-import logging
-from werkzeug.utils import secure_filename
-from functools import wraps
+import uuid #generates unique identifiers
+import datetime #supplies classes for manipulating dates and times
+import mimetypes #maps filenames to MIME types
+import logging # provides a way to configure logging
+from werkzeug.utils import secure_filename #ensures filenames are save
+from functools import wraps # a decorator to preserve the original function's metadata
 
 app = Flask(__name__)
 
